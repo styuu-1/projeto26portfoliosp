@@ -1,0 +1,125 @@
+/*Fonte do google - montserrat*/
+
+
+@import url('https://fonts.googleapis.com/css2?family=Google+Sans:ital,opsz,wght@0,17..18,400..700;1,17..18,400..700&family=Montserrat:ital@0;1&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Google Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    font-variation-settings:
+        "GRAD" 0;
+
+}
+
+body {
+
+    color: #fff;
+
+}
+
+.container {
+
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.3)), url(../img/image.png);
+    background-position: center;
+    background-size: cover;
+    padding-left: 8%;
+    padding-right: 8%;
+    display: flex;
+    flex-direction: column;
+}
+
+nav {
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 0;
+}
+
+.logo {
+
+    font-size: 40px;
+
+}
+
+.logo span {
+    color: #e400f9;
+}
+
+nav ul li {
+
+    display: inline-block;
+    list-style: none;
+    margin: 10px 15px;
+}
+
+nav ul li a {
+
+    color: #fff;
+    text-decoration: none;
+    transition: 0.5s;
+
+}
+
+nav ul li a:hover {
+
+    color: #bf0fde;
+
+}
+
+.login {
+
+    color: #fff;
+    font-size: 18px;
+    margin-right: 15px;
+    text-decoration: none;
+}
+
+.register {
+
+    color: #fff;
+    text-decoration: none;
+    background: #303030;
+    padding: 9px 25px;
+    border-radius: 6px;
+    font-size: 18px;
+}
+
+.content {
+    max-width: 600px;
+}
+
+.content h3 {
+
+    font-size: 55px;
+}
+
+.content p {
+
+    margin-top: 10px;
+    line-height: 20px;
+}
+
+.link {
+
+    margin-top: 30px;
+}
+
+.link .hire {
+
+    color: #000;
+    background: #fff;
+    text-decoration: none;
+    padding: 9px 25px;
+    border-radius: 6px;
+    font-weight: bold;
+
+
+}
